@@ -1,0 +1,55 @@
+/* Cor de fundo e texto */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #0d6efd;
+}
+
+footer {
+    background-color: #0d6efd;
+}
+
+/* Estilizando a Navbar */
+.navbar {
+    padding: 1rem 0;
+}
+
+/* Estilo dos botões do Card */
+.card .btn {
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* Efeito de Hover nos botões */
+.card .btn:hover {
+    background-color: #084298;
+}
+
+/* Seção de Contato */
+section#contato {
+    background-color: #f1f1f1;
+}
+
+section#contato .form-control {
+    border-radius: 0.5rem;
+}
+
+/* Seção Sobre Mim */
+section#sobre {
+    background-color: #e9ecef;
+}
+
+section#sobre .container {
+    max-width: 800px;
+}
+
+/* Estilo geral */
+h1, h2 {
+    font-weight: bold;
+}
+
+.bg-dark-custom {
+    background-color: #343a40;
+}
