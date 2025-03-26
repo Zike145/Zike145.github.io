@@ -1,5 +1,5 @@
 /*===============
-  global styles
+  estilos globais
 ===============*/
 
 * {
@@ -99,7 +99,7 @@
   }
   
   /*===================
-    buttons and links
+    botões e links
   ===================*/
   
   .link {
@@ -202,6 +202,13 @@
   .btn--icon:active {
     transform: translateY(-5px);
   }
+
+  .icon-container {
+    display: flex;
+    gap: 20px; 
+    align-items: center;
+}
+
   
   /*========
     layout
