@@ -408,4 +408,24 @@
     .scroll-container {
       display: none;
     }
+
+    .projects__grid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .project {
+      width: 90%;
+    }
+  
+    .about,
+    .skills__list,
+    .contact {
+      align-items: center;
+      text-align: center;
+    }
   }
+
+
+  
