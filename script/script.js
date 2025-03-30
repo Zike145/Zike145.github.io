@@ -61,3 +61,25 @@ const scrollUp = () => {
 }
 
 document.addEventListener('scroll', scrollUp)
+
+function applyDarkMode() {
+	if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+	  document.body.style.backgroundColor = '#000';
+	  document.body.style.color = '#fff';
+	  
+	  const nameElement = document.querySelector('.name');
+	  if (nameElement) {
+		nameElement.style.color = '#007bff'; 
+	  }
+	  
+	  const contactLinks = document.querySelectorAll('.contact a');
+	  contactLinks.forEach(link => {
+		link.style.color = '#fff';
+	  });
+	}
+  }
+  
+  applyDarkMode();
+  
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyDarkMode);
+  
